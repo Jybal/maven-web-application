@@ -96,20 +96,19 @@
 	</dependencies>
 	
 	<distributionManagement>
-	
 	    <repository>
 	      <id>nexus</id>
 	      <name>Mithun Technologies Releases Nexus Repository</name>
-	      <url>http://13.235.71.54:9980/mithuntechnologies/repository/paytm-release/</url>
+	      <url>18.222.183.115:8081/repository/maven-web-application-releases/</url>
 	    </repository>
-	    
+		
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Mithun Technologies Snapshot Nexus Repository </name>
-	      <url>http://13.235.71.54:9980/mithuntechnologies/repository/paytm-snapshot/</url>
+	     <url>http://18.222.183.115:8081/repository/maven-web-application-snapshot/</url>
 	    </snapshotRepository>
-	    
-	</distributionManagement>
+		
+	</distributionManagement
 	
 	<build>
 		<finalName>maven-web-application</finalName>
